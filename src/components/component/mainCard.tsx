@@ -47,7 +47,10 @@ export default function Component() {
       <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
         <Card className="w-full max-w-md p-6 space-y-4">
         <div className="text-md">
-        You need to once request otp on <a href="https://phirekbaarmodisarkar.bjp.org/en/#live_b" className="underline text-blue-400">This site</a> just request opt no need to enter it once you do it then use this bomber it will work. Yeah I can automate this but I am lazy to do so 😂
+        You need to once request otp on <a href="https://phirekbaarmodisarkar.bjp.org/en/#live_b" className="underline text-blue-400">This site</a> just request OTP no need to enter it once you do it then use this bomber it will work. Yeah I can automate this but I am lazy to do so 😂
+        <br />
+        <br />
+        <a href="https://github.com/shreverr" className="underline text-blue-400" target="_blank">Checkout my github</a>
         </div>
           <CardHeader>
             <CardTitle>Modi ji SMS Bomber</CardTitle>
@@ -68,7 +71,7 @@ export default function Component() {
                   {loading ? (
                     <Loader className="animate-spin w-5 h-5 mr-2" />
                   ) : (
-                    mobile === '9027166651'? 'Dont fuck with daddy ': "Bomb 💣"
+                    mobile === '9027166651'? 'Dont fuck with daddy': "Bomb 💣"
                   )}
                 </span>
               </Button>
