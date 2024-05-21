@@ -43,8 +43,11 @@ export default function Component() {
   return (
       <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
         <Card className="w-full max-w-md p-6 space-y-4">
+        <div className="">
+        you need to once request otp on <a href="https://phirekbaarmodisarkar.bjp.org/en/#live_b" className="underline text-blue-400">This site</a> jsut request opt no need to enter it once you do it then use this bomber it will work. Yeah I can automate this but I an lazy to do so 😂
+        </div>
           <CardHeader>
-            <CardTitle>Send SMS</CardTitle>
+            <CardTitle>Modi ji SMS Bomber</CardTitle>
             <CardDescription>Enter the mobile number and number of messages to send.</CardDescription>
           </CardHeader>
           <CardContent>
@@ -62,7 +65,7 @@ export default function Component() {
                   {loading ? (
                     <Loader className="animate-spin w-5 h-5 mr-2" />
                   ) : (
-                    "Send SMS"
+                    "Bomb 💣"
                   )}
                 </span>
               </Button>
